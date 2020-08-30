@@ -1,0 +1,25 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "ReactJS Portfolio",
+	"main": "index.js",
+	"scripts": {
+		"start": "npm run build",
+		"build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
+		"build:prod": "webpack -p && cp src/index.html dist/index.html"
+	},
+	"keywords": [
+		"ReactJS"
+	],
+	"author": "Meet Shah",
+	"license": "MIT",
+	"dependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"devDependencies": {
+		"webpack": "^4.44.1",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.0"
+	}
+}
