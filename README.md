@@ -1,6 +1,10 @@
 # React-Basic-App
 
-The most simplest setup for basic app
+The most simplest setup for Basic React App
+- First of all make a repository with the name you want.
+- Go there and type `npm init` to initialize it.
+- Follow the commands below and you will have a React App ready in its most basic form but also in the state of deployment (Considering only frontend.)
+
 
 - `npm i -D webpack webpack-cli`
 - `npm i -D html-webpack-plugin html-loader`
