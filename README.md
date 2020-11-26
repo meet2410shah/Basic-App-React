@@ -1,52 +1,46 @@
 # React Basic App
 
-### The Most Simplest Setup for Basic React App
+The most simplest setup for Basic React App
+
+- First of all make a repository with the name you want.
+- Go there and type `npm init -y` to initialize it.
+- Follow the commands below and you will have a React App ready in its most basic form but also in the state of deployment (Considering only frontend.)
 
 ---
 
-Are you the one who don't like to use `npx create-react-app`? Here is the most simplest setup for basic react app.
+## The Module Setup
 
-Apply the following commands if you want to setup it or simply clone this repo.
+#### Webpack Installation
 
-## STEP: 1
+- `npm i -D webpack webpack-cli`
 
-### React
+#### Webpack Plugins & Loaders
 
-We need only two packages for react.
+- `npm i -D html-webpack-plugin html-loader file-loader`
 
-1. react
-2. react-dom
+#### Webpack Dev Server
 
-So we will install it by using the following command.
-`npm i react react-dom`
+- `npm i -D webpack-dev-server`
 
-## STEP : 2
+#### Babel & Babel Components
 
-Now we need to import this react files, for that we need to create `src` folder in the root. And create a file name `index.js`.
-
-```js
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-ReactDOM.render(<h1>Hello World</h1>, window.document.getElementById('app'));
-```
-
-## STEP : 3
-
-The most important thing which we need is webpack "???" There are so many tutorials and videos out there which explains this but either they are old(Webpack 2) or not clear.
-
-### STEP : 3.1
-
-We need webpack.
-`$ npm i -D webpack webpack-dev-server webpack-cli`
-
-### Webpack 4
-
-- `npm i -D webpack webpack-dev-server webpack-cli`
-- `npm i -D html-webpack-plugin html-loader`
 - `npm i -D @babel/core babel-loader @babel/preset-env @babel/preset-react babel-plugin-transform-class-properties babel-preset-es2015`
-- `npm i -D file-loader`
 
-### For Developers
+---
 
-- If you want to add, modify or remove something important/relevant then make a pull request. I will be happy to do so.
+## The File Structure
+
+- Generally, we have seen that files and folder structure of different developer vary depending on the requirements. Here I have keep it super simple.
+
+#### Creation of `src` folder
+
+- The Next Step is to create a folder in the root with a name called `src` and make some jsx files inside of it.
+
+```
+\
+|-- src\
+    |-- app.jsx
+    |-- app.sass
+    |-- index.jsx
+    |-- index.sass
+```
