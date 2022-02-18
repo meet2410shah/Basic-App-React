@@ -119,3 +119,7 @@ module.exports = {
     |-- index.jsx
     |-- index.sass
 ```
+
+#### Installation of React and related packages
+- The last and the most important step for to setup the basic react application.
+- `npm i -D react react-dom`
