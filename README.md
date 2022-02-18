@@ -122,4 +122,17 @@ module.exports = {
 
 #### Installation of React and related packages
 - The last and the most important step for to setup the basic react application.
-- `npm i -D react react-dom`
+- `npm i react react-dom`
+
+### Run application
+- Add scripts in package.json
+```
+"scripts": {
+	"build": "webpack",
+	"start": "webpack-dev-server"
+}
+```
+- `npm start`
+- Now go to 'http://localhost:8080' in your browser, this is the default port used by webpack-dev-server to serve the static content.
+- Make changes and once you are ready for production, just go and type 'npm run build'. This will create a folder called 'dist' by defalt (which is same as npm run build in create-react-app where the name is 'build' by default)
+
