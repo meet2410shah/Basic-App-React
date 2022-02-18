@@ -29,8 +29,11 @@ The most simplest setup for Basic React App
 #### Webpack File Loader (e.i., .png, .jpg, etc.)
 - `npm i -D file-loader`
 
-#### Add CSS loader
+#### Webpack CSS loader
 - `npm i -D css-loader mini-css-extract-plugin`
+
+#### Webpack SASS loader
+- `npm i -D sass sass-loader`
 
 ---
 
