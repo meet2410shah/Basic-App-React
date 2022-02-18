@@ -90,6 +90,20 @@ module.exports = {
 };
 ```
 
+#### Creationg of .babelrc File
+- This will help babel to configure its part.
+- Add the following code to the .babelrc file placed in the root directory
+
+```
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
+}
+```
+
+
 #### Creation of `src` folder
 
 - The Next Step is to create a folder in the root with a name called `src` and make some jsx files inside of it.
