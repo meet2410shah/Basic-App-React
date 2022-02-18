@@ -134,5 +134,10 @@ module.exports = {
 ```
 - `npm start`
 - Now go to 'http://localhost:8080' in your browser, this is the default port used by webpack-dev-server to serve the static content.
-- Make changes and once you are ready for production, just go and type 'npm run build'. This will create a folder called 'dist' by defalt (which is same as npm run build in create-react-app where the name is 'build' by default)
+- Make changes and once you are ready for production, just go and type 'npm run build'. This will create a folder called 'dist' by defalt (which is same as npm run build in create-react-app where the name is 'build' by default) You can add the ouput object with in the webpack.config.js to specify the name. (Do not forgot to import path module)
+```
+output: {
+	path: path.resolve(__dirname, 'build')
+}
+```
 
