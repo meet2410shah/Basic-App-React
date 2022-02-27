@@ -1,4 +1,4 @@
-# React Basic App
+# Basic React App
 
 The most simplest setup for Basic React App
 
